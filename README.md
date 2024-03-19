@@ -11,7 +11,7 @@ Este projeto mostra como usar a biblioteca EFCore BulkExtensions para realizar o
 
 Em vez de interagir com o banco de dados linha por linha, o EFCore.BulkExtensions permite que você manipule grandes conjuntos de dados em uma única operação, o que geralmente resulta em melhor desempenho em cenários onde muitas entidades precisam ser processadas de uma só vez.
 
-Essa biblioteca é útil em situações em que você precisa lidar com grandes volumes de dados e deseja minimizar o tempo de execução das operações de banco de dados. Ao usar EFCore.BulkExtensions, você pode inserir milhares ou até milhões de registros de uma só vez, em vez de iterar individualmente sobre cada entidade..
+Essa biblioteca é útil em situações em que você precisa lidar com grandes volumes de dados e deseja minimizar o tempo de execução das operações de banco de dados. Ao usar EFCore.BulkExtensions, você pode inserir milhares ou até milhões de registros de uma só vez, em vez de iterar individualmente sobre cada entidade.
 
 Lembre-se de que, embora seja poderosa para operações em massa, é importante entender como e quando usar essas operações para evitar impactos negativos no desempenho do banco de dados e para garantir a consistência dos dados.
 
